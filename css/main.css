@@ -171,9 +171,11 @@ h3 {
 
 .main-nav > li {
   display: inline-block;
-  line-height: 46px;
+  line-height: 48px;
   margin-left: 40px;
   min-width: 96px;
+  padding-left: 1em;
+  padding-right: 1em;
   text-align: center;
 }
 

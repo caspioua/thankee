@@ -178,13 +178,13 @@ h3 {
 }
 
 .main-nav a {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
 }
 
 .nav-item-active {
-  color: #027FAA;
-  border-bottom: 2px solid #027FAA;
+  color: #FFF;
+  background-color: #027FAA;
 }
 
 .tooltip-link {

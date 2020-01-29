@@ -253,9 +253,10 @@ h3 {
   color: #333;
 }
 
-.DropBox .Option {
+div.DropBox .Option {
   line-height: 1.6;
   height: inherit;
+  padding-left: 5px;
 }
 
 /* ==========================================================================

@@ -101,6 +101,10 @@ html {
   font-size: 14px;
 }
 
+body {
+  background-color: #F8F8F8;
+}
+
 .header {
   height: 48px;
   box-shadow: 0 1px 4px rgba(155, 155, 155, .5);

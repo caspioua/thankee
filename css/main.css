@@ -141,9 +141,11 @@ body {
   text-align: center;
 }*/
 
-.auth-user a,
-.forgot-password a {
-  color: #027FAA;
+div.auth-user a,
+div.auth-user a:hover,
+div.forgot-password a,
+div.forgot-password a:hover {
+  color: #fff;
   text-decoration: none;
 }
 

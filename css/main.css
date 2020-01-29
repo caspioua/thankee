@@ -127,6 +127,10 @@ body {
   margin: 13px 0 11px 16px;
 }
 
+.cb-auth-box table {
+   margin: auto;
+}
+
 .auth-user {
   float: right;
   text-align: right;

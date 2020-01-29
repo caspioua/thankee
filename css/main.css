@@ -238,7 +238,7 @@ h3 {
 }
 
 /* Round border for the  main content */
-.main > [id^=cbDataAjaxCtnr] {
+.main [id^=cbDataAjaxCtnr] {
   background-color: #FFF;
   border: 1px solid #D8D8D8;
   border-radius: 4px;

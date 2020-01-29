@@ -107,8 +107,8 @@ body {
 
 .header {
   height: 48px;
-  box-shadow: 0 1px 4px rgba(155, 155, 155, .5);
-  margin-bottom: 8px;
+  /* box-shadow: 0 1px 4px rgba(155, 155, 155, .5); 
+  margin-bottom: 8px; */
   background-color: #005883;
   color: #fff;
 }
@@ -231,9 +231,10 @@ h3 {
   opacity: 1;
 }
 
-#caspioform > table {
+#caspioform 
+/* #caspioform > table {
    margin: 0 auto;
-}
+}*/
 
 
 

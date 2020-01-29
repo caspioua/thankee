@@ -245,7 +245,7 @@ h3 {
    margin: 0 auto;
 }
 
-.cbResultSetTableCell > select {
+[class^=cbResultSetSelect] {
   height: 32px;
   border-radius: 2px;
   border: 1px solid #747D82;

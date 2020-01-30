@@ -258,13 +258,13 @@ h3 {
    margin: 0 auto;
 }
 
-[class^=cbResultSetSelect] {
+/*[class^=cbResultSetSelect] {
   height: 32px;
   border-radius: 2px;
   border: 1px solid #747D82;
   padding: 0 5px;
   color: #333;
-}
+} */
 
 div.DropBox .Option {
   line-height: 1.6;

@@ -292,6 +292,7 @@ div.DropBox .Option {
    cursor: pointer;
   padding: 1em;
   border-bottom: 1px;
+  margin-top: 1em;
 }
 
 .tabs-nav > label:hover {

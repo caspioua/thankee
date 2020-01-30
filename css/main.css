@@ -113,6 +113,10 @@ body {
   color: #fff;
 }
 
+.header.admin {
+  background-color: #9b408d;
+}
+
 .main, .inner-header {
   margin: auto;
   width: 960px;

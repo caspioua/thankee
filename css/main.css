@@ -294,8 +294,13 @@ div.DropBox .Option {
   border-bottom: 1px;
 }
 
+.tabs-nav > label:hover {
+    color: #027FAA;
+}
+
 .tabs-nav > input:checked + label {
   border-bottom: 1px solid #027FAA;
+  color: #027FAA;
 }
 
 .tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs,

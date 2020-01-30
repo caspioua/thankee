@@ -305,7 +305,7 @@ div.DropBox .Option {
 
 .tab-content {
    /*visibility: hidden;*/
-   display: visible;
+   display: none;
 }
 
 

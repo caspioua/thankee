@@ -273,6 +273,48 @@ div.DropBox .Option {
   padding-left: 5px;
 }
 
+/* TABS */
+.tabs-nav {
+   font-size: 16px;
+}
+
+.tabs-nav > input {
+   display: none;
+}
+
+.tabs-nav > input:checked {
+   background: #eee;
+}
+
+.tabs-nav > label {
+   display: inline-block;
+   position: relative;
+   cursor: pointer;
+}
+
+.tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs {
+   visibility: visible;
+}
+
+.tabs-nav > input#tab_months:checked ~ .tabs-container #t_m {
+   visibility: visible;
+}
+
+.tabs-nav > input#tab_seasons:checked ~ .tabs-container #t_s {
+   visibility: visible;
+}
+
+.tabs-container {
+   position: relative;
+}
+
+.tab-content {
+   visibility: hidden;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -292,16 +292,11 @@ div.DropBox .Option {
    cursor: pointer;
 }
 
-.tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs {
-   visibility: visible;
-}
-
-.tabs-nav > input#tab_months:checked ~ .tabs-container #t_m {
-   visibility: visible;
-}
-
+.tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs,
+.tabs-nav > input#tab_months:checked ~ .tabs-container #t_m,
 .tabs-nav > input#tab_seasons:checked ~ .tabs-container #t_s {
-   visibility: visible;
+   /*visibility: visible;*/
+   display: block;
 }
 
 .tabs-container {
@@ -310,6 +305,7 @@ div.DropBox .Option {
 
 .tab-content {
    visibility: hidden;
+   display: visible;
 }
 
 

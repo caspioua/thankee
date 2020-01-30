@@ -290,6 +290,12 @@ div.DropBox .Option {
    display: inline-block;
    position: relative;
    cursor: pointer;
+  padding: 1em;
+  border-bottom: 1px;
+}
+
+.tabs-nav > input:checked + label {
+  border-bottom: 1px solid #027FAA;
 }
 
 .tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs,

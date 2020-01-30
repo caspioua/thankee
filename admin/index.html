@@ -2,71 +2,72 @@
 <html class="no-js" lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Caspio Thankee Admin</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Caspio">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Caspio Thankee Admin</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Caspio">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="https://4erff29jo03b8uhp4b94vxhq-wpengine.netdna-ssl.com/wp-content/themes/caspio/favicon.ico">
-  <link rel="shortcut icon" href="https://4erff29jo03b8uhp4b94vxhq-wpengine.netdna-ssl.com/wp-content/themes/caspio/favicon.ico">
-  <!-- Place favicon.ico in the root directory -->
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="https://4erff29jo03b8uhp4b94vxhq-wpengine.netdna-ssl.com/wp-content/themes/caspio/favicon.ico">
+	<link rel="shortcut icon" href="https://4erff29jo03b8uhp4b94vxhq-wpengine.netdna-ssl.com/wp-content/themes/caspio/favicon.ico">
+	<!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="https://caspioua.github.io/common/css/normalize.css">
-  <link rel="stylesheet" href="https://caspioua.github.io/thankee/css/main.css">
+	<link rel="stylesheet" href="https://caspioua.github.io/common/css/normalize.css">
+	<link rel="stylesheet" href="https://caspioua.github.io/thankee/css/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 </head>
 
 <body>
-  <script>
-    var v_dpTotalCount = 2;
-    var v_dpCounter = 0;
-  </script>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-<header class="header admin">
-  <div class="inner-header">
-    <a href="https://caspioua.github.io/thankee/"><img class="main-logo" src="https://caspioua.github.io/common/img/caspio-logo-02-white.png" alt="Caspio logo" /></a>
-	  <nav class="main-nav-wrapper">
-      <ul class="main-nav">
-        <li class="nav-item-active">Thankee</li>
-        <li><a href="https://caspioua.github.io/thankee/admin/seasons">Seasons Management</a></li>
-        <li><a href="https://caspioua.github.io/thankee/admin/employees">Employees Management</a></li>
-      </ul>
-    </nav>
-    <div class="auth-user">
-      <script type="text/javascript" src="https://c3esh604.caspio.com/dp/05ff4000ce52cde1602d4818b11f/emb"></script>
-    </div>
-  </div>
-</header>
+	<script>
+		var v_dpTotalCount = 2;
+		var v_dpCounter = 0;
+	</script>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+	<header class="header admin">
+		<div class="inner-header">
+			<a href="https://caspioua.github.io/thankee/"><img class="main-logo" src="https://caspioua.github.io/common/img/caspio-logo-02-white.png" alt="Caspio logo" /></a>
+			<nav class="main-nav-wrapper">
+				<ul class="main-nav">
+					<li class="nav-item-active">Thankee</li>
+					<li><a href="https://caspioua.github.io/thankee/admin/seasons">Seasons Management</a></li>
+					<li><a href="https://caspioua.github.io/thankee/admin/employees">Employees Management</a></li>
+				</ul>
+			</nav>
+			<div class="auth-user">
+				<script type="text/javascript" src="https://c3esh604.caspio.com/dp/05ff4000ce52cde1602d4818b11f/emb"></script>
+			</div>
+		</div>
+	</header>
 
 <main class="main">
+    <div class="tabs-nav">
+        <input type="radio" id="tab_cur_season" name="tab" checked>
+        <label for="tab_cur_season">Current Season</label>
+        <input type="radio" id="tab_months" name="tab">
+        <label for="tab_months">Months Data</label>
+        <input type="radio" id="tab_seasons" name="tab">
+        <label for="tab_seasons">Seasons Data</label>
 
-	<input type="radio" id="tab_cur_season" name="tab" checked>
-	<label for="tab_cur_season">Current Season</label>
-	<input type="radio" id="tab_months" name="tab">
-	<label for="tab_months">Months Data</label>
-	<input type="radio" id="tab_seasons" name="tab">
-	<label for="tab_seasons">Seasons Data</label>
-
-	<div class="tab-container">
-		<div class="tab-content" id="t_cs">
-			<h3>Features</h3>
-			<p>There really are a lot of features.</p>
-		</div>
-		<div class="tab-content" id="t_m">
-			<h3>History</h3>
-			<p>The project started in 2018 when someone needed something.</p>
-		</div>
-		<div class="tab-content" id="t_s">
-			<h3>Reviews</h3>
-			<p>Amazing product. I don't know how it works.</p>
-		</div>
+        <div class="tab-container">
+            <div class="tab-content" id="t_cs">
+                <h3>Features</h3>
+                <p>There really are a lot of features.</p>
+            </div>
+            <div class="tab-content" id="t_m">
+                <h3>History</h3>
+                <p>The project started in 2018 when someone needed something.</p>
+            </div>
+            <div class="tab-content" id="t_s">
+                <h3>Reviews</h3>
+                <p>Amazing product. I don't know how it works.</p>
+            </div>
 	</div>
+    </div>
 
 	
 	

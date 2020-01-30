@@ -304,9 +304,9 @@ div.DropBox .Option {
   color: #027FAA;
 }
 
-.tabs-nav > input#tab_cur_season:checked ~ .tabs-container #t_cs,
-.tabs-nav > input#tab_months:checked ~ .tabs-container #t_m,
-.tabs-nav > input#tab_seasons:checked ~ .tabs-container #t_s {
+.tabs-nav > input#tab1:checked ~ .tabs-container #tb_c1,
+.tabs-nav > input#tab2:checked ~ .tabs-container #tb_c2,
+.tabs-nav > input#tab3:checked ~ .tabs-container #tb_c3 {
    /*visibility: visible;*/
    display: block;
 }

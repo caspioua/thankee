@@ -324,9 +324,11 @@ div.DropBox .Option {
    Material colors
    ========================================================================== */
 
-.material-icons.lightblue800 { color: #0277BD; }
+.material-icons.deep { color: #005883; }
+.material-icons.deep:hover { color: #1196BA ; }
 
-.material-icons.red800 { color: #C62828; }
+.material-icons.sangria { color: #9B0006; }
+.material-icons.sangria { color: ##E02020; }
 
 /* ==========================================================================
    Helper classes

@@ -123,6 +123,10 @@ body {
   padding: 0 1em;
 }
 
+.inner-header {
+  display: flex;
+}
+
 .main {
   /*margin-top: 32px;*/
 }
@@ -182,6 +186,7 @@ h3 {
 
 .main-nav-wrapper {
   display: inline;
+  flex-grow: 1;
 }
 
 .main-nav > li {

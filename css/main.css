@@ -129,7 +129,7 @@ body {
 
 .main-logo {
   height: 24px;
-  margin: 13px 0 11px 16px;
+  margin: 13px 16px 11px 16px;
 }
 
 .cb-auth-box table {
@@ -416,6 +416,19 @@ div.DropBox .Option {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+
+@media only screen and (max-width: 1024px) {
+  .main-nav > li {
+    margin-left: 16px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main-nav > li {
+    margin-left: 0;
+  }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */

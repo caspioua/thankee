@@ -425,11 +425,17 @@ div.DropBox .Option {
 }
 
 @media only screen and (max-width: 576px) {
+  .main-logo {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+  
   .main-nav > li {
     margin-left: 0;
      padding-left: .5em;
      padding-right: .5em;
   }
+  
 }
 
 @media only screen and (min-width: 35em) {

@@ -425,6 +425,10 @@ div.DropBox .Option {
 }
 
 @media only screen and (max-width: 576px) {
+  h3 {
+    text-align: center;
+  }
+  
   .main-logo {
     margin-left: 0;
     margin-right: 16px;

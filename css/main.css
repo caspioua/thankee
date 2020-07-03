@@ -432,8 +432,9 @@ div.DropBox .Option {
   
   .main-nav > li {
     margin-left: 0;
-     padding-left: .5em;
-     padding-right: .5em;
+    min-width: 0;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   
   .auth-user {

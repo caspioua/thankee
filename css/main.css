@@ -436,6 +436,9 @@ div.DropBox .Option {
      padding-right: .5em;
   }
   
+  .auth-user {
+    margin: 4px 0 4px 4px;
+  }
 }
 
 @media only screen and (min-width: 35em) {

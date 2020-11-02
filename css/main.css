@@ -138,7 +138,7 @@ body {
 
 /* position auth. box to the center */
 .cb-auth-box form>div {
-   margin: auto;
+   margin: 0 auto;
 }
 
 .auth-user {
@@ -259,10 +259,6 @@ h3 {
   border-radius: 4px;
   margin: 1em 0;
   /*padding: 1em 0 0;*/
-}
-
-#caspioform > table {
-   margin: 0 auto;
 }
 
 /* should be fixed with the Caspio Styles */

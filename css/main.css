@@ -136,7 +136,8 @@ body {
   margin: 13px 16px 11px 16px;
 }
 
-.cb-auth-box section {
+/* position auth. box to the center */
+.cb-auth-box form>div {
    margin: auto;
 }
 
